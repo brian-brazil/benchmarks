@@ -1,5 +1,9 @@
 package main
 
+// Result:
+// BenchmarkJSONMarshalling              50          25473968 ns/op
+// BenchmarkProtobufMarshalling         100          18804006 ns/op
+
 import (
 	"encoding/json"
 	"fmt"
