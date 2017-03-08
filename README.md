@@ -1,3 +1,3 @@
-# Benchmarks
+# Prometheus Benchmarks
 
-This repository contains various random benchmarks.
+This repository contains benchmark / testing tools for Prometheus.

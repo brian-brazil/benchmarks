@@ -29,6 +29,14 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/golang/snappy",
+			"repository": "https://github.com/golang/snappy",
+			"vcs": "git",
+			"revision": "553a641470496b2327abcac10b36396bd98e45c9",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/matttproud/golang_protobuf_extensions/pbutil",
 			"repository": "https://github.com/matttproud/golang_protobuf_extensions",
 			"vcs": "git",
@@ -88,6 +96,186 @@
 			"vcs": "git",
 			"revision": "a1dba9ce8baed984a2495b658c82687f8157b98f",
 			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/config",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "config",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/relabel",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "relabel",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/storage/remote",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "/storage/remote",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/util/httputil",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "util/httputil",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/Sirupsen/logrus",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/Sirupsen/logrus",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/beorn7/perks/quantile",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/beorn7/perks/quantile",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/golang/protobuf/proto",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/golang/protobuf/proto",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/golang/snappy",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/golang/snappy",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/client_golang/prometheus",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/client_golang/prometheus",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/client_model/go",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/client_model/go",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/common/expfmt",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/common/expfmt",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/common/log",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/common/log",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/common/model",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/common/model",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/github.com/prometheus/procfs",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/github.com/prometheus/procfs",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/golang.org/x/net/context",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/golang.org/x/net/context",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/golang.org/x/sys/windows",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/golang.org/x/sys/windows",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/golang.org/x/time/rate",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/golang.org/x/time/rate",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/prometheus/vendor/gopkg.in/yaml.v2",
+			"repository": "https://github.com/prometheus/prometheus",
+			"vcs": "git",
+			"revision": "2677f3eaf2f83e009c7403d384f430f2b8e03aa9",
+			"branch": "master",
+			"path": "vendor/gopkg.in/yaml.v2",
 			"notests": true
 		},
 		{
