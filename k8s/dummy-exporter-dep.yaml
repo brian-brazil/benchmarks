@@ -1,0 +1,20 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: benchmark-exporter
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: benchmark-exporter
+    spec:
+      containers:
+      - name: benchmark-exporter
+        image: benchmark-exporter:latest
+        imagePullPolicy: IfNotPresent
+        args:
+        - -listen=:80
+        ports:
+        - containerPort: 80
