@@ -9,7 +9,7 @@ data:
       scrape_interval: 30s # By default, scrape targets every 15 seconds.
 
     remote_write:
-    - url: http://example-receiver:80/receive
+    - url: http://dummy-receiver:80/receive
 
     scrape_configs:
     - job_name: 'kubernetes-pods'

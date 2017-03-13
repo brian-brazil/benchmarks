@@ -2,9 +2,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: example-receiver
+  name: dummy-receiver
 spec:
   ports:
     - port: 80
   selector:
-    name: example-receiver
+    name: dummy-receiver

@@ -2,17 +2,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: benchmark-exporter
+  name: dummy-exporter
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        name: benchmark-exporter
+        name: dummy-exporter
     spec:
       containers:
-      - name: benchmark-exporter
-        image: benchmark-exporter:latest
+      - name: dummy-exporter
+        image: quay.io/weaveworks/dummy-exporter:latest
         imagePullPolicy: IfNotPresent
         args:
         - -listen=:80

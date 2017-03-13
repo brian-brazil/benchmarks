@@ -2,17 +2,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: example-receiver
+  name: dummy-receiver
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        name: example-receiver
+        name: dummy-receiver
     spec:
       containers:
-      - name: example-receiver
-        image: example-receiver:latest
+      - name: dummy-receiver
+        image: quay.io/weaveworks/dummy-receiver:latest
         imagePullPolicy: IfNotPresent
         args:
         - -listen=:80

@@ -1,3 +1,4 @@
 .pkg
 .uptodate
-cmd/dummy_exporter/dummy_exporter
+cmd/dummy-exporter/dummy-exporter
+cmd/dummy-receiver/dummy-receiver
