@@ -2,3 +2,4 @@
 .uptodate
 cmd/dummy-exporter/dummy-exporter
 cmd/dummy-receiver/dummy-receiver
+cmd/test-exporter/test-exporter
