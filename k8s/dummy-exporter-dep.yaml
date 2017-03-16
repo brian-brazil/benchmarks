@@ -1,0 +1,20 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: dummy-exporter
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: dummy-exporter
+    spec:
+      containers:
+      - name: dummy-exporter
+        image: quay.io/weaveworks/dummy-exporter:latest
+        imagePullPolicy: IfNotPresent
+        args:
+        - -listen=:80
+        ports:
+        - containerPort: 80

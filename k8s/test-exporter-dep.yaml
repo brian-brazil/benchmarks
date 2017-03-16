@@ -1,0 +1,22 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: test-exporter
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: test-exporter
+    spec:
+      containers:
+      - name: dummy-exporter
+        image: quay.io/weaveworks/test-exporter:latest
+        imagePullPolicy: IfNotPresent
+        args:
+        - -listen=:80
+        - -scrape-interval=1s
+        - -prometheus-address=http://prometheus.default.svc.cluster.local:80/
+        ports:
+        - containerPort: 80
