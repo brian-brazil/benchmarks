@@ -8,6 +8,7 @@ import (
 	"net/http"
 
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 var (
@@ -36,6 +37,6 @@ func (collector) Collect(ch chan<- prometheus.Metric) {
 func main() {
 	prometheus.MustRegister(collector{})
 	flag.Parse()
-	http.Handle("/metrics", prometheus.Handler())
+	http.Handle("/metrics", promhttp.Handler())
 	http.ListenAndServe(":1234", nil)
 }
